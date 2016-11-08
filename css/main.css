@@ -1,0 +1,211 @@
+body {
+	background-color: #EDEDED;
+	margin: 0;
+	font-family: verdana, sans-serif;
+}
+body a{
+	text-decoration: none;
+	color: black;
+}
+/*Logo and Nav*/
+header{
+	margin-top:50px;
+	margin-bottom: 50px;
+}
+
+header h2 {
+	display: inline;
+	margin-left: 75px;
+	font-family:"Dancing Script", cursive;
+}
+
+header nav img {
+	float:left;
+	height: 26px;
+	width: 30px;
+	position: relative;
+	left: 70px;
+	top: px;
+}
+
+ul {
+	display: inline;
+	float: right;
+	margin:0;
+	margin-right: 25px;
+}
+
+ul li{
+	display: inline;
+	 margin-right: 10px;
+}
+
+/*Separation*/
+hr {
+	display: block;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	width: 98%;
+
+}
+
+/*Main Image and Intro*/
+
+section #intro {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#intro span {
+	color: #E8A0AB;
+}
+
+
+section #banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	height: 200px;
+	width: 98%;
+		
+}
+
+#rep h3 {
+	text-align: center;
+	color: #E8A0AB;
+	margin-top: 0;
+	margin-bottom: 50px;
+	font-family:"Dancing Script", cursive;
+	font-size: 30px;
+	font-weight: bold;
+}
+.about {
+	
+	float: left;
+	margin-left: 100px;
+	width: 500px;
+	margin-bottom: 50px;
+}
+
+.work {
+	float: right;
+	margin-right: 100px;
+	width: 500px;
+	margin-bottom: 50px;
+}
+
+/*Thumbnails*/
+
+.thumbnail {
+	margin-left: 25px;
+}
+
+.thumb{
+	float: left;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	
+}
+
+.thumb img{
+	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	width:200px;
+	height:150px;
+} 
+
+.info {
+	position: relative;
+	background-color: #ffffff;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	width: 200px;
+	height: 40px;
+	bottom: 5px;
+
+
+
+}
+
+.info h4 {
+	margin:0;
+	padding-left: 5px;
+}
+
+.info h5 {
+	margin: 0;
+	color: #E8A0AB;
+	padding-left: 5px;
+}
+
+.center{
+	text-align: center;
+	color: #E8A0AB;
+	font-family:"Dancing Script", cursive;
+	font-size: 25px;
+	font-weight: bold;
+}
+/*Footer*/
+
+footer {
+	display: flex;
+	background-color: #2D2D2D;
+	padding-top: 50px;
+	padding-bottom: 5px;
+}
+.clear{
+	clear: both;
+}
+
+form {
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+form h4 {
+	font-family: "Dancing Script", cursive;
+	font-size: 30px;
+	font-weight: bold;
+	color: #E8A0AB;
+	margin:0;
+	margin-bottom: 15px;
+}
+input {
+	margin-bottom: 10px;
+	background-color: #d9d9d9;
+	border-radius: 2px;
+}
+
+textarea{
+	width: 622px;
+	background-color: #d9d9d9;
+	border-radius: 2px;
+}
+
+button {
+	position: relative;
+	right: 5px;
+	color: white;
+	background: none;
+	border: none;
+	font-size: 15px;
+	margin-top: 15px;
+	
+}
+
+#socList {
+	position: relative;
+	height: 0;
+	left: 335px;
+	top: 100px;
+}
+
+#socList img{
+	height: 35px;
+	width: 35px;
+	margin-right: 15px;
+}
